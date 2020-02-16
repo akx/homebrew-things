@@ -10,6 +10,8 @@ class Paulstretch < Formula
   depends_on "fltk" => :build
   depends_on "libmxml" => :build
   depends_on "libogg" => :build
+  depends_on "libsamplerate" => :build
+  depends_on "libvorbis" => :build
   depends_on "mad" => :build
   depends_on "portaudio" => :build
 
